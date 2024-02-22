@@ -1,4 +1,4 @@
-# Nymble Assignment 
+# Nymble Assignment
 This repository  implements a software system that allows travel agencies to maintain their travel packages' itinerary and passengers.
 
 # Classes
