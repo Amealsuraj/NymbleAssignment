@@ -4,7 +4,7 @@ This repository  implements a software system that allows travel agencies to mai
 # Classes
 **TravelPackage**: Represents a travel package, including its name, passenger capacity, enrolled passengers, and destinations. It provides methods for managing destinations, enrolling passengers, printing itineraries, printing passenger lists, printing passenger details and printing available activities.
 
-**Passenger**:  Passenger has attributes such as name, passenger number, type (e.g.,standard, premium, gold), balance, and activities. Passengers can signup for any activity using signUpForActivity method.
+**Passenger**:  Passenger has attributes such as name, passenger number, type (e.g.,standard, premium, gold), balance, and activities. Passengers can signup for any activity using [signUpForActivity](https://github.com/Amealsuraj/NymbleAssignment/blob/8a1e12e01321a2aa04d7e66dcf3199de89406840/src/main/java/com/nymble/assignment/Passenger.java#L55) method.
 
 **Destination**: Represents a destination included in a travel package. It contains a name and a list of activities available at the destination.
 
