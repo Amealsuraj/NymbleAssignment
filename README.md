@@ -1,4 +1,4 @@
-# NymbleAssignment
+# Nymble Assignment 
 This repository  implements a software system that allows travel agencies to maintain their travel packages' itinerary and passengers.
 
 # Classes
@@ -13,6 +13,16 @@ This repository  implements a software system that allows travel agencies to mai
 **PassengerType**: It is enumeration type which represents passenger type(premium, gold, and standard).
 
 **Main** : Driver program to run entire software system
+
+# Important Methods
+
+[printItinerary](https://github.com/Amealsuraj/NymbleAssignment/blob/b7ec991ee0eba296557d42f669fe4c02e1b035d5/src/main/java/com/nymble/assignment/TravelPackage.java#L53): This method prints itinerary of the travel package including travel package name,destinations and details of the activities available at each destination, like name, cost, capacity and description.
+
+[printPassengerList](https://github.com/Amealsuraj/NymbleAssignment/blob/b7ec991ee0eba296557d42f669fe4c02e1b035d5/src/main/java/com/nymble/assignment/TravelPackage.java#L64): This method prints the passenger list of the travel package including package name,passenger capacity, number of passengers currently enrolled and name and number of each passenger
+
+[printPassengerDetails](https://github.com/Amealsuraj/NymbleAssignment/blob/b7ec991ee0eba296557d42f669fe4c02e1b035d5/src/main/java/com/nymble/assignment/TravelPackage.java#L73):This method prints the details of an individual passenger including their name, passenger number, balance (if applicable), list of each activity they have signed up for, including the destination the at which the activity is taking place and the price the passenger paid for the activity using [calculatePrice](https://github.com/Amealsuraj/NymbleAssignment/blob/b7ec991ee0eba296557d42f669fe4c02e1b035d5/src/main/java/com/nymble/assignment/TravelPackage.java#L98) method.
+
+[printAvailableActivities](https://github.com/Amealsuraj/NymbleAssignment/blob/b7ec991ee0eba296557d42f669fe4c02e1b035d5/src/main/java/com/nymble/assignment/TravelPackage.java#L85C14-L85C38): This method prints the details of all the activities that still have spaces available, including how many spaces are available.
 
 # The respository also have Junit test classes for above classes
 
