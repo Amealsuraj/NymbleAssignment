@@ -33,3 +33,6 @@ This repository  implements a software system that allows travel agencies to mai
 [**PassengerTest**](https://github.com/Amealsuraj/NymbleAssignment/blob/7f56619a8445dab9048b83562cbc3ad0b89fcdd9/src/test/java/com/nymble/assignment/PassengerTest.java#L11): Test methods of Passenger class
 
 [**TravelPackageTest**](https://github.com/Amealsuraj/NymbleAssignment/blob/7f56619a8445dab9048b83562cbc3ad0b89fcdd9/src/test/java/com/nymble/assignment/TravelPackageTest.java#L14): It tests methods for managing destinations, enrolling passengers, printing itineraries, printing passenger lists, printing passenger details and printing available activities.
+
+
+
