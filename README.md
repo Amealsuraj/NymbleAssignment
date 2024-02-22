@@ -2,17 +2,17 @@
 This repository  implements a software system that allows travel agencies to maintain their travel packages' itinerary and passengers.
 
 # Classes
-**TravelPackage**: Represents a travel package, including its name, passenger capacity, enrolled passengers, and destinations. It provides methods for managing destinations, enrolling passengers, printing itineraries, printing passenger lists, printing passenger details and printing available activities.
+[**TravelPackage**](https://github.com/Amealsuraj/NymbleAssignment/blob/b7ec991ee0eba296557d42f669fe4c02e1b035d5/src/main/java/com/nymble/assignment/TravelPackage.java#L6): Represents a travel package, including its name, passenger capacity, enrolled passengers, and destinations. It provides methods for managing destinations, enrolling passengers, printing itineraries, printing passenger lists, printing passenger details and printing available activities.
 
-**Passenger**:  Passenger has attributes such as name, passenger number, type (e.g.,standard, premium, gold), balance, and activities. Passengers can signup for any activity using [signUpForActivity](https://github.com/Amealsuraj/NymbleAssignment/blob/8a1e12e01321a2aa04d7e66dcf3199de89406840/src/main/java/com/nymble/assignment/Passenger.java#L55) method.
+[**Passenger**](https://github.com/Amealsuraj/NymbleAssignment/blob/7f56619a8445dab9048b83562cbc3ad0b89fcdd9/src/main/java/com/nymble/assignment/Passenger.java#L12):  Passenger has attributes such as name, passenger number, type (e.g.,standard, premium, gold), balance, and activities. Passengers can signup for any activity using [signUpForActivity](https://github.com/Amealsuraj/NymbleAssignment/blob/8a1e12e01321a2aa04d7e66dcf3199de89406840/src/main/java/com/nymble/assignment/Passenger.java#L55) method.
 
-**Destination**: Represents a destination included in a travel package. It contains a name and a list of activities available at the destination.
+[**Destination**](https://github.com/Amealsuraj/NymbleAssignment/blob/7f56619a8445dab9048b83562cbc3ad0b89fcdd9/src/main/java/com/nymble/assignment/Destination.java#L6): Represents a destination included in a travel package. It contains a name and a list of activities available at the destination.
 
-**Activity**: Represents an activity available at a destination. It includes attributes such as name, cost, capacity, description, and destination.
+[**Activity**](https://github.com/Amealsuraj/NymbleAssignment/blob/7f56619a8445dab9048b83562cbc3ad0b89fcdd9/src/main/java/com/nymble/assignment/Activity.java#L3): Represents an activity available at a destination. It includes attributes such as name, cost, capacity, description, and destination.
 
-**PassengerType**: It is enumeration type which represents passenger type(premium, gold, and standard).
+[**PassengerType**](https://github.com/Amealsuraj/NymbleAssignment/blob/7f56619a8445dab9048b83562cbc3ad0b89fcdd9/src/main/java/com/nymble/assignment/Passenger.java#L7): It is enumeration type which represents passenger type(premium, gold, and standard).
 
-**Main** : Driver program to run entire software system
+[**Main**](https://github.com/Amealsuraj/NymbleAssignment/blob/7f56619a8445dab9048b83562cbc3ad0b89fcdd9/src/main/java/com/nymble/assignment/Main.java#L3) : Driver program to run entire software system
 
 # Important Methods
 
@@ -26,10 +26,10 @@ This repository  implements a software system that allows travel agencies to mai
 
 # The respository also have Junit test classes for above classes
 
-**ActivityTest**: Test methods of Activity class
+[**ActivityTest**](https://github.com/Amealsuraj/NymbleAssignment/blob/7f56619a8445dab9048b83562cbc3ad0b89fcdd9/src/test/java/com/nymble/assignment/ActivityTest.java#L8): Test methods of Activity class
 
-**DestinationTest**:Test methods of Destination class
+[**DestinationTest**](https://github.com/Amealsuraj/NymbleAssignment/blob/7f56619a8445dab9048b83562cbc3ad0b89fcdd9/src/test/java/com/nymble/assignment/DestinationTest.java#L11):Test methods of Destination class
 
-**PassengerTest**: Test methods of Passenger class
+[**PassengerTest**](https://github.com/Amealsuraj/NymbleAssignment/blob/7f56619a8445dab9048b83562cbc3ad0b89fcdd9/src/test/java/com/nymble/assignment/PassengerTest.java#L11): Test methods of Passenger class
 
-**TravelPackageTest**: It tests methods for managing destinations, enrolling passengers, printing itineraries, printing passenger lists, printing passenger details and printing available activities.
+[**TravelPackageTest**](https://github.com/Amealsuraj/NymbleAssignment/blob/7f56619a8445dab9048b83562cbc3ad0b89fcdd9/src/test/java/com/nymble/assignment/TravelPackageTest.java#L14): It tests methods for managing destinations, enrolling passengers, printing itineraries, printing passenger lists, printing passenger details and printing available activities.
